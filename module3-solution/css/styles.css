@@ -1,7 +1,8 @@
 body {
     font-size: 16px;
-    color: #1a1a1a;
-    background-color: #599e4b;
+    color: black;
+    background-color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 
@@ -32,8 +33,8 @@ body {
 }
 
 .navbar-brand h1 {
-    color: #7d1913;
-    font-weight: bolder;
+    color: white;
+    font-weight: bold;
     font-size: 1.8em;
 }
 
@@ -43,14 +44,14 @@ body {
 }
 
 #nav-list {
-    background-color: #e4af34;
+    background-color: white;
 }
 
 #nav-list a {
-    /*text-align: center;*/
     font-weight: bolder;
     color: #282828;
     font-size: 1.2em;
+    border: solid;
 }
 
 #nav-list a:hover {
@@ -59,7 +60,7 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #7d1913;
+    border: 1px solid white;
 }
 
 
@@ -84,6 +85,11 @@ body {
     font-size: 1.6em;
     font-weight: bold;
     margin-bottom: 1em;
+}
+
+#main-section {
+    background-color: lightgrey;
+    padding: 8px;
 }
 
 #chicken-tile, #beef-tile, #sushi-tile {
